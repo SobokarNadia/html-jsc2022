@@ -1,0 +1,15 @@
+.pic {
+    width: 300px;
+}
+.txt{
+    background: #f8dddd;
+    color: darkblue;
+}
+.quotes{
+    background: #f5c7e3;
+    color: #31461d;
+}
+.name{
+    background: #e8c942;
+    color: #000;
+}
