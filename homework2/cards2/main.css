@@ -1,0 +1,51 @@
+.wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Arial, sans-serif;
+    gap: 50px;
+    margin: 50px 0;
+}
+
+.container{
+    display: flex;
+    gap: 50px;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 285px;
+    height: 350px;
+    border: 1px solid gray;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+.fa-house{
+    font-size: 30px;
+    color: gray;
+}
+
+.headline{
+    color: orange;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.txt{
+    text-align: center;
+    color: gray;
+}
+
+button{
+    color: white;
+    background: lightseagreen;
+    width: 100px;
+    height: 35px;
+    border: none;
+}
