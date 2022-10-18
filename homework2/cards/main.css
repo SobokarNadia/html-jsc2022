@@ -1,0 +1,27 @@
+.wrap{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+}
+.block{
+    height: 330px;
+    width: 283px;
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+}
+
+
+.description{
+    color: gray;
+    text-align: center;
+}
+button{
+    background: white;
+    border: 1px solid black;
+    width: 110px;
+    height: 39px;
+}
