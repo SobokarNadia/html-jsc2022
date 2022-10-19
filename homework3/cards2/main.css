@@ -1,0 +1,50 @@
+.first{
+    height: 10vh;
+    background: #cdd7e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
+}
+
+.rect{
+    background: #102b3e;
+    height: 30px;
+    width: 70px;
+}
+
+.icons{
+    display: flex;
+    gap: 30px;
+}
+
+.fa-solid{
+    font-size: 20px;
+    color: #6964e1;
+}
+
+.second{
+    height: 70vh;
+    background: #102b3e;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.spuare{
+    width: 90px;
+    height: 90px;
+    background: #6964e1;
+    position: relative;
+    top: 45px;
+}
+
+.third{
+    height: 20vh;
+    background: #cdd7e0;
+}
+
+.radius{
+    border-radius: 10%;
+}
