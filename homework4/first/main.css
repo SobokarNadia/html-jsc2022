@@ -1,0 +1,40 @@
+.wrap{
+   display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.head{
+    height: 30vh;
+    background: #f5c9fa;
+}
+
+.content{
+    display: flex;
+    gap: 5px;
+}
+
+.block1{
+    width: 60vw;
+    background: #e1dea1;
+    height: 70vh;
+
+}
+
+.block2{
+    width: 40vw;
+    height: 70vh;
+    background: #cee1f1;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1023px){
+    .content{
+        flex-direction: column;
+        height: 70vh;
+    }
+    .block1, .block2{
+        width: 100vw;
+        height: 50%;
+    }
+}
