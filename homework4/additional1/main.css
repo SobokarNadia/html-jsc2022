@@ -1,0 +1,86 @@
+.wrap{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 2px;
+}
+
+.roof{
+    display: flex;
+    height: 10vh;
+    gap: 2px;
+}
+.header{
+    width: 80vw;
+    background-color: #fdbaba;
+
+}
+.logo{
+    width: 20vw;
+    background-color: #fdbaba;
+}
+.container{
+    display: flex;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.navs{
+    height: 40vh;
+    width: 20vw;
+    background: #31461d;
+}
+.store, .tools{
+    height: 20vh;
+    width: 20vw;
+    background: #f5c7e3;
+}
+.content{
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;   
+}
+.line1{
+    height: 30%;
+    display: flex;
+    gap: 2px;
+}
+.line2{
+    height: 70%;
+    display: flex;
+    gap: 2px;
+}
+.bath,  .types {
+    background: #e8b35f;
+    width: 70%;
+    height: 100%;
+
+}
+.ad, .products{
+    width: 30%;
+    background: #6964e1;
+}
+.footer{
+    width: 100vw;
+    height: 10vh;
+    background: #313335;
+}
+.txt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.copy{
+    display: none;
+}
+
+

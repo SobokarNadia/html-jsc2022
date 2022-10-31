@@ -1,0 +1,38 @@
+@media screen and (min-width: 0px) and (max-width: 1023px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .navs {
+        width: 100vw;
+        height: 10vh;
+    }
+
+    .store, .tools {
+        display: none;
+    }
+
+    .content {
+        width: 100vw;
+        height: 59vh;
+    }
+    .sidebar{
+        height: 10vh;
+    }
+    .copy.sidebar, .copy.sidebar > .store, .copy.sidebar > .tools {
+        display: block;
+
+    }
+    .copy.sidebar {
+        display: flex;
+        flex-direction: row;
+
+    }
+    .copy.sidebar > .store, .copy.sidebar > .tools{
+        width: 50vw;
+        text-align: center;
+    }
+    .copy.sidebar > .navs {
+        display: none;
+    }
+}
